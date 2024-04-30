@@ -1,0 +1,22 @@
+expression SqlServerInstance = "POWERBI-SQL" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 7cafcf99-4aa7-4cf9-9531-9d2444379c44
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+expression SqlServerDatabase = "AdventureWorksDW2020-DAX-Docs" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: a6172d13-b835-4393-858b-377c561ad08c
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+/// Used to format month names in the Date query.
+expression Culture = "en-US" meta [IsParameterQuery=true, Type="Any", IsParameterQueryRequired=true]
+	lineageTag: aa8ada61-e3a6-4c47-a92c-9dfd2aca7143
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
